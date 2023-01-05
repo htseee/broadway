@@ -55,7 +55,7 @@ html, body {
   
   .jumbotron {
     height: 800px;
-    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-image: url("images/bg.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
