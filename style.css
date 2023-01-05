@@ -5,6 +5,9 @@ html, body {
   
   header {
     background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
   }
   
   nav {
@@ -17,10 +20,14 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 12px;
+    display: inline-block;
+    width: 80px;
   }
   
   main {
     text-align: center;
+    position: relatively;
+    top: 80px;
   }
   
   main h1 {
@@ -55,7 +62,7 @@ html, body {
   
   .jumbotron {
     height: 800px;
-    background-image: url("images/bg.jpg");
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,6 +100,7 @@ html, body {
   .supporting .col {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    display: inline-block; 
   }
   
   .supporting img {
