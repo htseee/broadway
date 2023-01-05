@@ -27,7 +27,7 @@ html, body {
   main {
     text-align: center;
     position: relatively;
-    top: 80px;
+    top: 180px;
   }
   
   main h1 {
@@ -62,7 +62,7 @@ html, body {
   
   .jumbotron {
     height: 800px;
-    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-image: url("images/bg.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
